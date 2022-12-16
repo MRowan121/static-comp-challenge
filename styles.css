@@ -91,10 +91,10 @@ h1 {
     height: 61vh;
     justify-content: space-evenly;
     overflow-y: auto;
-    padding-top: 2vh;
     padding-bottom: 2vh;
     padding-left: 2vw;
     padding-right: 2vw;
+    padding-top: 2vh;
 }
 
 .card-info {
@@ -130,6 +130,20 @@ h1 {
 .info-link {
     background-color: #CAD2C5;
     padding: .5vw;
+}
+
+a:link,
+a:visited {
+    color: #354F52;
+    text-decoration: none;
+}
+  
+a:hover {
+    text-decoration: underline;
+}
+  
+a:active {
+    color: blue;
 }
 
 h3 {
