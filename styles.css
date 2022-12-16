@@ -51,13 +51,15 @@ ul {
 
 li {
     padding: 10px;
+    transition: transform 750ms;
+    will-change: transform;
 }
 
-li:hover {
+li:hover,
+li:focus {
     padding: 10px;
     cursor: pointer;
     color: #84A98C;
-    transition: transform 250ms;
     transform: translateY(-10px);
 }
 
