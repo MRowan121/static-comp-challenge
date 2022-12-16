@@ -53,6 +53,14 @@ li {
     padding: 10px;
 }
 
+li:hover {
+    padding: 10px;
+    cursor: pointer;
+    color: #84A98C;
+    transition: transform 250ms;
+    transform: translateY(-10px);
+}
+
 i {
     padding: 5px;
 }
