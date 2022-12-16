@@ -25,6 +25,7 @@ body > header {
     display: flex;
     font-size: 2.5vh;
     justify-content: end;
+    cursor: pointer;
 }
 
 .admin-username > img {
@@ -87,9 +88,10 @@ h1 {
     display: flex;
     flex-wrap: wrap;
     grid-gap: 25px;
-    height: 63vh;
+    height: 61vh;
     justify-content: space-evenly;
     overflow-y: auto;
+    padding-top: 2vh;
     padding-bottom: 2vh;
     padding-left: 2vw;
     padding-right: 2vw;
